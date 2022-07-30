@@ -1,3 +1,5 @@
+// NOTE: THIS IS THE LEGACY VERSION OF DEPLOY.
+
 // This is a script for deploying your contracts. You can adapt it to deploy
 // yours, or create new ones.
 

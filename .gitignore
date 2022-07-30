@@ -10,3 +10,5 @@ types
 
 .env
 
+dist
+yarn-error.log

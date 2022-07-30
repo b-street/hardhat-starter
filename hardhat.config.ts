@@ -1,32 +1,23 @@
-import "@nomiclabs/hardhat-waffle";
-import "@nomiclabs/hardhat-web3";
-import "@nomiclabs/hardhat-ethers";
-
-import "@nomiclabs/hardhat-etherscan";
+////////////
+// load hardhat features
+import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-solhint";
-import "@nomiclabs/hardhat-waffle";
-import "@nomiclabs/hardhat-ethers";
-// import "@tenderly/hardhat-tenderly";
-import "@typechain/hardhat";
 import "hardhat-contract-sizer";
 import "hardhat-deploy";
 import "hardhat-docgen";
-import "hardhat-gas-reporter";
 import "hardhat-interface-generator";
 import "hardhat-spdx-license-identifier";
 import "hardhat-tracer";
 import "hardhat-watcher";
-import "solidity-coverage";
-import "./tasks";
 
-require("@nomicfoundation/hardhat-chai-matchers");
+////////////
+import "./tasks";
+////////////
 
 import { HardhatUserConfig } from "hardhat/config";
-
 import {node_url, accounts} from './utils/network';
 import {removeConsoleLog} from "hardhat-preprocessor";
 
-require("./tasks");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {

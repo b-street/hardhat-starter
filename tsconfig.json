@@ -4,7 +4,7 @@
       "./globals.d.ts"
     ],
     "module": "commonjs",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "target": "es5",
     "noImplicitAny": true,
@@ -29,14 +29,12 @@
     "src/**/*",
     "./scripts",
     "./deploy",
-    "./test",
+    "./tests",
     "typechain/**/*",
+    "./hardhat.config.ts",
     "ignore/discussion_bp.ts"
   ],
   "exclude": [
     "src/**/*.test.ts"
   ],
-  "files": [
-    "./hardhat.config.ts"
-  ]
 }
